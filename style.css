@@ -2,7 +2,7 @@ body{
   background: #EEF1EF;
   color: #51513D;
   font-size: 25px;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 h1{
@@ -26,12 +26,11 @@ a:hover {
   padding: 10px;
 }
 
-
 #banner{
   text-align: center;
-  background-image: url("https://unsplash.it/1300/600?random");
+  background-image: url("https://images.unsplash.com/photo-1514589553259-ed2658dad420?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=322d1b99945f13aec55cd52936af99c3&auto=format&fit=crop&w=1607&q=80");
   background-size: cover;
-  padding: 150px;
+  padding: 100px;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
@@ -53,18 +52,21 @@ a:hover {
 .card{
   padding: 50px;
   font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 #footer a {
   color: #51513D;
-  font-size: 15px;
+  font-size: 30px;
 }
 #footer a:hover {
-  color: #ECE2D0;
+  color: #EEF1EF;
 }
 .btn{
-  font-size: 25px
-}
+  font-size: 25px;
+  }
 
 #nav-bar{
   display: flex;
@@ -83,10 +85,15 @@ a:hover {
  }
 
 .nav-bar-links a:hover {
-  color: black;
+  color: #EEF1EF;
 }
 
 .logo i {
   font-size: 50px;
   color: #51513D;
 }
+
+.logo a:hover {
+  color: #EEF1EF;
+}
+
