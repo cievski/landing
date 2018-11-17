@@ -1,0 +1,92 @@
+body{
+  background: #EEF1EF;
+  color: #51513D;
+  font-size: 25px;
+  font-family: Helvetica;
+  text-align: center;
+}
+h1{
+  font-family: 'Roboto Slab', serif;
+  color: #51513D;
+  font-weight: lighter;
+}
+h2 {
+  font-family: Courier;
+  color: #51513D;
+  font-weight: lighter;
+}
+a {
+  color: #75B9BE;
+}
+a:hover {
+  text-decoration: none;
+  color: #A8CCC9;
+}
+#button {
+  padding: 10px;
+}
+
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: #A8CCC9;
+  color: #51513D;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer a {
+  color: #51513D;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: #ECE2D0;
+}
+.btn{
+  font-size: 25px
+}
+
+#nav-bar{
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: #A8CCC9;
+}
+
+.nav-bar-links a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #51513D;
+  padding: 10px;
+ }
+
+.nav-bar-links a:hover {
+  color: black;
+}
+
+.logo i {
+  font-size: 50px;
+  color: #51513D;
+}
