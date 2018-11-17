@@ -33,6 +33,7 @@ a:hover {
   padding: 100px;
   color: white;
   text-shadow: 1px 1px 5px black;
+  display: block;
 }
 #banner h1 {
   color: white;
